@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*
+    Green: #67b26f
+    Blue: #4ca2cd
+    Mid: #5aaa9d
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    background: linear-gradient(to bottom right, #c900ff, #00d4ff);
+    height: 100vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.kideok{
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 30px 80px 0px rgba(200, 150,0,1.5);
+
+    display: flex;
+    align-items: stretch;
+}
+
+.kideok_hero{
+    flex: 0 10 20%;
+}
+
+.kideok_img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+.kideok_content{
+    flex: 1;
+    background: #f02275;
+    padding: 35px 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.kideok_information{
+    flex: 0 0 50px;
+    background: linear-gradient(to botton, red , black);
+    writing-mode: sideways-rl;
+    color: maroon;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kideok_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.kiedok_heading{
+    font-size: 26px;
+    margin-right: auto;
+}
+
+.kideok_tag{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 300px;
+    margin-left: 7px;
+}
+
+.kideok_tag--1{
+    background-color: lightblue;
+}
+
+.kideok_tag--2{
+    background-color: lightgreen;
+}
+
+.kideok_description{
+    font-size: 15px;
+}
+
+.kideok_details{
+    display: flex;
+    margin-top: auto;
+}
+
+.kideok_detil{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-weight: 800;
+
+    display: flex;
+    align-items: center;
+}
+
+.emoji{
+    font-size: 20px;
+    margin-right: 3px;
+}
